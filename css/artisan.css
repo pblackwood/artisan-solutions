@@ -1,0 +1,334 @@
+body {
+    font-family: verdana, tahoma, sans;
+    font-size: medium;
+    /*background-color: rgb(102, 102, 102);*/
+}
+
+em {
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.container {
+    background-color: rgb(255, 255, 240);
+    /*min-width: 100%;*/
+    padding: 30px;
+}
+
+.slogan {
+    font-size: x-large;
+    font-weight: 550;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 15px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+/*@media (min-width: 768px) {*/
+/*    .intro .contact {*/
+/*        margin-left: 50px;*/
+/*        margin-right: 100px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+/*    .intro .contact {*/
+/*        margin-left: 50px;*/
+/*        margin-right: 200px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*    .intro .contact {*/
+/*        margin-left: 50px;*/
+/*        margin-right: 300px;*/
+/*    }*/
+/*}*/
+
+.photo {
+    padding: 20px;
+}
+
+.bio-pic {
+    border: 2px solid #444;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.navbar-header, .navbar-collapse {
+    line-height: 5.5em;
+}
+
+.slogan {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    /*margin-bottom: 10px;*/
+    /*margin-right: 20px;*/
+    /*vertical-align: middle;*/
+    /*float: right;*/
+    height: 75px;
+}
+
+.navbar h2 {
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f8f8e8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: trebuchet ms, verdana, sans serif;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+p {
+    margin: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.status-available {
+    color: #007a00;
+    font-weight: bold;
+}
+
+.status-working {
+    color: #7a4812;
+    font-weight: bold;
+}
+
+.resume-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007a00;
+}
+
+.pitch {
+    margin-left: 50px;
+    margin-right: 75px;
+}
+
+.clients {
+    margin-left: 50px;
+    margin-right: 75px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 238, 169);
+    padding: 20px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+.client-card {
+    max-width: 45%;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.client-logo {
+    max-height: 100px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+
+.logo-card {
+    width: 30%;
+    height: 90px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.logo-only {
+    max-height: 100px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.project-summary {
+    margin: 8px 40px 0 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.partners {
+    background-color: #ffbf78;
+    margin-left: 50px;
+    margin-right: 75px;
+    padding: 20px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+.partner-card {
+    max-width: 45%;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.partner-logo {
+    max-height: 100px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+
+.partner-summary {
+    margin: 10px 40px 0 40px;
+    color: black;
+    text-decoration: none;
+}
+
+/* CONTENT ON HOME PAGE */
+.intro h1 {
+    font-family: Prociono, Serif;
+    text-align: center;
+}
+
+.content h3, .content h2 {
+    text-align: center;
+}
+
+/* Allow minimum height, except on small devices
+@media (min-width: 768px) {
+    .colorbar {
+        min-height: 750px;
+    }
+}
+*/
+.unfinished {
+    display: none;
+}
+
+#pageHeader {
+    height: 120px;
+    background-color: rgb(223, 238, 202);
+    border-bottom: solid black 1px;
+}
+
+#logo {
+    background: url('../images/iron_small.jpg') left no-repeat;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+#header {
+    position: relative;
+    top: 0px;
+    left: 120px;
+    width: 530px;
+    height: 120px;
+}
+
+#banner {
+    background: url('../images/artisanlogomedium.gif') left no-repeat;
+    width: 280px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 135px;
+}
+
+#banner span {
+    display: none;
+}
+
+.em {
+    font-weight: bold;
+}
+
+.client {
+    padding: 5px;
+    margin: 10px;
+    background-color: #efefef;
+    border: solid 1px #cfcfcf;
+}
+
+.client h3 {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.client h4 {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.client img {
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 45px;
+}
+
+.client img#fedex {
+    float: right;
+    height: 55px;
+}
+
+.client img#pnc {
+    float: right;
+    height: 30px;
+}
+
+.client img#aeo, img#cigna {
+    float: right;
+    height: 75px;
+}
+
+.client p.project-top {
+    margin-top: 3px;
+}
+
+.consultant {
+    font-weight: bold;
+}
+
+.indent {
+    margin: 10px 40px 20px 40px;
+}
+
