@@ -19,9 +19,9 @@ h1 {
 }
 
 .container {
-    background-color: rgb(255, 255, 240);
+    /*background-color: rgb(255, 255, 240);*/
     padding: 1em 2em;
-    /*background-color: yellow;*/
+    background-color: yellow;
 }
 
 .slogan {
@@ -59,21 +59,9 @@ h1 {
     margin-right: 10px;
 }
 
-.navbar-brand {
-    /*margin-bottom: 10px;*/
-    /*margin-right: 20px;*/
-    /*vertical-align: middle;*/
-    /*float: right;*/
-    height: 75px;
-}
-
-.navbar h2 {
-    margin-right: 20px;
-}
-
 .footer {
     text-align: center;
-    background-color: #f8f8e8;
+    /*background-color: #f8f8e8;*/
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -113,59 +101,6 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: #007a00;
-}
-
-.logo-card {
-    /*width: 30%;*/
-    /*height: 90px;*/
-    border: solid 1px #ccc;
-    border-radius: 10px;
-    background-color: white;
-    /*margin-bottom: 25px;*/
-}
-
-.logo-only {
-    max-height: 100px;
-    width: 100%;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.project-summary {
-    /*margin: 8px 40px 0 40px;*/
-    color: black;
-    text-decoration: none;
-}
-
-.partners {
-    background-color: #ffbf78;
-    margin-left: 50px;
-    margin-right: 75px;
-    padding: 20px;
-    border: solid 1px #ccc;
-    border-radius: 10px;
-}
-
-.partner-card {
-    max-width: 45%;
-    border: solid 1px #ccc;
-    border-radius: 10px;
-    background-color: white;
-    margin-bottom: 25px;
-    padding-bottom: 20px;
-}
-
-.partner-logo {
-    max-height: 100px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
-    background-color: white;
-}
-
-.partner-summary {
-    margin: 10px 40px 0 40px;
-    color: black;
-    text-decoration: none;
 }
 
 /* CONTENT ON HOME PAGE */
@@ -224,13 +159,6 @@ a {
     font-weight: bold;
 }
 
-.client {
-    padding: 5px;
-    margin: 10px;
-    background-color: #efefef;
-    border: solid 1px #cfcfcf;
-}
-
 .clients {
     margin-top: 2em;
     background-color: rgb(255, 238, 169);
@@ -254,49 +182,52 @@ a {
     background-color: white;
 }
 
-.client h3 {
-    margin-left: 5px;
-    margin-top: 5px;
+.logo-card {
+    height: 100%;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
 }
 
-.client h4 {
-    margin-left: 15px;
-    margin-bottom: 0px;
-    margin-top: 10px;
+.logo-only {
+    width: 80%;
+    max-width: 100%;
+    max-height: 75px;
+    border-radius: 10px;
 }
 
-.client img {
-    float: right;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    height: 45px;
+.project-summary {
+    color: black;
+    text-decoration: none;
 }
 
-.client img#fedex {
-    float: right;
-    height: 55px;
+.partners {
+    margin-top: 2em;
+    background-color: #ffbf78;
+    border: solid 1px #ccc;
+    border-radius: 10px;
 }
 
-.client img#pnc {
-    float: right;
-    height: 30px;
+.partner-card {
+    height: 100%;
+    padding: 0.5em;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    background-color: white;
 }
 
-.client img#aeo, img#cigna {
-    float: right;
-    height: 75px;
+.partner-logo {
+    max-width: 100%;
+    max-height: 75px;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
 }
 
-.client p.project-top {
-    margin-top: 3px;
-}
-
-.consultant {
-    font-weight: bold;
-}
-
-.indent {
-    margin: 10px 40px 20px 40px;
+.partner-summary {
+    color: black;
+    text-decoration: none;
+    padding: 0.25em;
 }
 
 @media (min-width: 576px) {
