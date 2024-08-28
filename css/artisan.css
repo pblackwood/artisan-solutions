@@ -19,6 +19,7 @@ h1 {
 
 .container {
     background-color: rgb(255, 255, 240);
+    border: solid 1px #ccc;
     padding: 1em 2em;
 }
 
@@ -59,9 +60,8 @@ h1 {
 
 .footer {
     text-align: center;
-    /*background-color: #f8f8e8;*/
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border: none;
+    padding: 1em 2em 0 2em;
 }
 
 h3 {
@@ -107,36 +107,12 @@ a {
     border-bottom: solid black 1px;
 }
 
-#logo {
-    background: url('../images/iron_small.jpg') left no-repeat;
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-right: solid black 1px;
-    border-bottom: solid black 1px;
-}
-
 #header {
     position: relative;
     top: 0px;
     left: 120px;
     width: 530px;
     height: 120px;
-}
-
-#banner {
-    background: url('../images/artisanlogomedium.gif') left no-repeat;
-    width: 280px;
-    height: 80px;
-    position: absolute;
-    top: 10px;
-    left: 135px;
-}
-
-#banner span {
-    display: none;
 }
 
 .em {
